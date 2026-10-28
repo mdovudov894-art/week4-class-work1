@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+header {
+    background: #252b42;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 30px 150px;
+}
+
+.links1 {
+    display: flex;
+    gap: 15px;
+    margin-left: 60px;
+    margin-right: auto;
+}
+
+.links1 p {
+    font-size: 14px;
+}
+
+.links2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.links2 p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.links2 button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 25px;
+    background: #23a6f0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.icons {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 25px 20px;
+    }
+
+    .links2 {
+        display: none;
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* Дар телефон пайвандҳо дар поён, зери логотип */
+    .links1 {
+        order: 3;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin: 50px 0 30px;
+    }
+
+    .links1 p {
+        font-size: 24px;
+        font-weight: 500;
+        color: #d0d4e0;
+    }
+}
