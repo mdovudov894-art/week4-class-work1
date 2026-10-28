@@ -26,16 +26,27 @@ header {
     gap: 15px;
     margin-left: 60px;
     margin-right: auto;
+
+    p:hover{
+        text-decoration: underline;
+    }
 }
 
 .links1 p {
     font-size: 14px;
+    cursor: pointer;
 }
 
 .links2 {
     display: flex;
     align-items: center;
     gap: 30px;
+    p{
+        cursor: pointer;
+    }
+    p:hover{
+        text-decoration: underline;
+    }
 }
 
 .links2 p {
@@ -91,6 +102,12 @@ header {
             background-color: #23A6F0;
             color: #fff;
             font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .btn1:hover{
+            box-shadow: 0 5px 2px rgb(77, 77, 197);
+            transform: translateY(-3px);
         }
 
         .btn2 {
@@ -101,6 +118,12 @@ header {
             background: none;
             color: #fff;
             margin-left: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .btn2:hover{
+           background-color: #23A6F0;
+           transform: translateY(-4px);
         }
     }
 
@@ -426,6 +449,10 @@ form{
         font-family: "Montserrat";
         font-weight: 600;
         border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover{
+        opacity: 60%;
     }
 }
 .section8{
@@ -442,6 +469,10 @@ form{
         p{
             margin-top: 20px;
             font-size: 13px;
+            cursor: pointer;
+        }
+        p:hover{
+            text-decoration: underline;
         }
     }
     .social-icons{
