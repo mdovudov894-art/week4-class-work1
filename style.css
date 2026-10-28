@@ -9,6 +9,7 @@ body {
 .container{
     max-width: 1300px;
     margin: 0 auto;
+    background-color: #252b42;
 }
 
 header {
@@ -160,6 +161,49 @@ header {
 .hero2{
     display: flex;
 }
+.section3{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .what-text{
+        text-align: center;
+        margin-top: 200px;
+        margin-bottom: 80px;
+    }
+}
+
+.regina-box{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border-radius: 5px;
+    padding: 30px;
+    padding-top: 60px;
+    img{
+        width: 90px;
+        margin-bottom: 30px;
+    }
+    p, span{
+        color: #737373;
+    }
+    p{
+        margin-bottom: 20px;
+    }
+    span{
+        font-weight: 600;
+    }
+    h2{
+        color: black;
+    }
+    .stars{
+        width: 150px;
+    }
+}
 
 @media (max-width: 500px) {
     header {
@@ -229,4 +273,14 @@ header {
             display: block !important;
             width: 40px !important;
         }
+        .section3{
+            flex-direction: column;
+        }
+        .regina-box{
+            width: 70%;
+            padding-top: 20px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
 }
