@@ -6,7 +6,8 @@
 body {
     font-family: "Montserrat", Arial, sans-serif;
 }
-.container{
+
+.container {
     max-width: 1300px;
     margin: 0 auto;
     background-color: #252b42;
@@ -19,6 +20,7 @@ header {
     align-items: center;
     padding: 30px 150px;
 }
+
 .links1 {
     display: flex;
     gap: 15px;
@@ -60,27 +62,29 @@ header {
     display: none;
 }
 
-.section1{
+.section1 {
     display: flex;
     background-color: #252b42;
     color: #fff;
     justify-content: center;
     gap: 90px;
 
-    .financial-text{
-        
+    .financial-text {
+
         margin-top: 50px;
 
-        h1{
+        h1 {
             font-size: 50px;
             font-weight: 700;
         }
-        p{
+
+        p {
             font-size: 20px;
             margin-top: 25px;
             margin-bottom: 25px;
         }
-        .btn1{
+
+        .btn1 {
             padding: 15px;
             width: 160px;
             border-radius: 30px;
@@ -89,52 +93,58 @@ header {
             color: #fff;
             font-size: 16px;
         }
-        .btn2{
+
+        .btn2 {
             padding: 15px;
-                width: 160px;
-                border-radius: 30px;
-                border: 2px solid #fff;
-                background: none;
-                color: #fff;
-                margin-left: 10px;
-            }
+            width: 160px;
+            border-radius: 30px;
+            border: 2px solid #fff;
+            background: none;
+            color: #fff;
+            margin-left: 10px;
         }
-        img{
-            width: 450px;
-        }
-        
     }
-    
-    .section2{
+
+    img {
+        width: 450px;
+    }
+
+}
+
+.section2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #252b42;
     color: #fff;
-    .better-text{
+
+    .better-text {
         text-align: center;
         margin-top: 40px;
         margin-bottom: 40px;
 
-        p{
+        p {
             color: #737373;
             margin-top: 20px;
             font-size: 14px;
         }
     }
 }
-.heroes{
+
+.heroes {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.hero1,.hero2{
+.hero1,
+.hero2 {
     display: flex;
     gap: 20px;
-    
+
 }
-.box{
+
+.box {
     display: flex;
     border: 1px solid #F2F2F2;
     height: 150px;
@@ -143,43 +153,49 @@ header {
     width: 310px;
     padding: 10px;
     height: 130px;
-    h3{
+
+    h3 {
         font-size: 16px;
         margin-bottom: 10px;
     }
-    p{
+
+    p {
         font-size: 13px;
     }
-    img{
+
+    img {
         width: 50px;
         margin-top: -20px;
     }
-    .setting-icon{
+
+    .setting-icon {
         display: none;
     }
 }
-.hero2{
+
+.hero2 {
     display: flex;
 }
-.section3{
+
+.section3 {
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    .what-text{
+    .what-text {
         text-align: center;
         margin-top: 200px;
         margin-bottom: 80px;
 
-        p{
+        p {
             font-size: 14px;
             margin-top: 20px;
         }
     }
 }
 
-.regina-box{
+.regina-box {
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -190,67 +206,82 @@ header {
     padding: 30px;
     padding-top: 60px;
     margin-bottom: 50px;
-    img{
+
+    img {
         width: 90px;
         margin-bottom: 30px;
     }
-    p, span{
+
+    p,
+    span {
         color: #737373;
     }
-    p{
+
+    p {
         margin-bottom: 20px;
     }
-    span{
+
+    span {
         font-weight: 600;
     }
-    h2{
+
+    h2 {
         color: black;
     }
-    .stars{
+
+    .stars {
         width: 150px;
     }
 }
 
-.section4{
+.section4 {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #fff;
     text-align: center;
     margin-top: 150px;
-    p{
+
+    p {
         font-size: 15px;
         margin-top: 15px;
         margin-bottom: 45px;
     }
-    .download-icons{
+
+    
+
+    .download-icons {
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
         max-width: 1300px;
-        img{
+
+        img {
             width: 200px;
         }
     }
-    .download-icons2{
+
+    .download-icons2 {
         display: none;
     }
 }
 
 
-.section5{
+.section5 {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 190px;
-    .pricing-text{
+
+    .pricing-text {
         color: #fff;
         text-align: center;
-        
-        h1{
+
+        h1 {
             margin-bottom: 20px;
         }
-        p{
+
+        p {
             margin-bottom: 60px;
             font-size: 14px;
 
@@ -258,11 +289,13 @@ header {
     }
 }
 
-.box-s5{
+.box-s5 {
     display: flex;
     gap: 40px;
-    .box1, .box2{
-        background-color:#fff ;
+
+    .box1,
+    .box2 {
+        background-color: #fff;
         width: 380px;
         border: 1px solid #23A6F0;
         display: flex;
@@ -270,22 +303,23 @@ header {
         border-radius: 10px;
         gap: 63px;
 
-        button{
+        button {
             padding: 15px;
             width: 150px;
             border: none;
-            background:#23A6F0;
+            background: #23A6F0;
             color: #fff;
             border-radius: 5px;
             font-weight: 700;
             margin-top: 10px;
         }
 
-        div{
-            h2{
+        div {
+            h2 {
                 color: #23A6F0;
             }
-            p{
+
+            p {
                 font-size: 13px;
                 width: 190%;
                 font-weight: 600;
@@ -295,13 +329,35 @@ header {
             }
         }
     }
-    .price-free, .price-std{
+
+    .price-free,
+    .price-std {
         margin-top: 20px;
         margin-left: 40px;
     }
 
 }
 
+.section6 {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: #fff;
+    margin-top: 200px;
+
+    h1 {
+        line-height: 1.6;
+    }
+
+    p {
+        line-height: 1.2;
+        font-size: 13px;
+        margin-top: 20px;
+        letter-spacing: 0.2px;
+    }
+}
 
 
 
@@ -321,6 +377,7 @@ header {
         align-items: center;
         gap: 20px;
     }
+
     .links1 {
         order: 3;
         width: 100%;
@@ -335,60 +392,114 @@ header {
         font-weight: 500;
         color: #d0d4e0;
     }
-    .section1{
+
+    .section1 {
         flex-direction: column;
 
-        img{
+        img {
             width: 100%;
         }
     }
-    .financial-text{
+
+    .financial-text {
         text-align: center;
-        
-        h1{
+
+        h1 {
             margin-top: 50px;
         }
 
-        .buttons{
+        .buttons {
             display: flex;
             gap: 20px;
             flex-direction: column;
             align-items: center;
-            .btn1{
+
+            .btn1 {
                 width: 200px;
             }
         }
     }
-        .hero1,
-        .hero2{
-            flex-direction: column;
-        }
-        .box{
-            border: none;
-        }
-        .hero-icon{
-            display: none;
-        }
-        .setting-icon{
-            display: block !important;
-            width: 40px !important;
-        }
-        .section3{
-            flex-direction: column;
-        }
-        .regina-box{
-            width: 70%;
-            padding-top: 20px;
+
+        .download-text {
+            width: 50%;
             text-align: center;
-            margin-bottom: 30px;
         }
-        .download-icons{
-            display: none !important;
+
+    .hero1,
+    .hero2 {
+        flex-direction: column;
+    }
+
+    .box {
+        border: none;
+    }
+
+    .hero-icon {
+        display: none;
+    }
+
+    .setting-icon {
+        display: block !important;
+        width: 40px !important;
+    }
+
+    .section3 {
+        flex-direction: column;
+    }
+
+    .regina-box {
+        width: 70%;
+        padding-top: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .download-icons {
+        display: none !important;
+    }
+
+    .download-icons2 {
+        display: flex !important;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .box-s5 {
+        flex-direction: column;
+        align-items: center;
+
+        .box1,
+        .box2 {
+            width: 60% !important;
+            flex-direction: column !important;
+
+            div {
+
+                p {
+                    width: auto;
+                }
+            }
         }
-        .download-icons2{
-            display: flex !important;
-            flex-direction: column;
-            gap: 20px;
+    }
+
+    .price-free,
+    .price-std {
+        margin: auto !important;
+        margin-top: -50px !important;
+    }
+
+    .pricing-text {
+        width: 220px;
+    }
+
+    .section6{
+        flex-direction: column;
+
+        img{
+            width: 85%;
         }
-        
+        .we-text{
+            width: 76%;
+        }
+    }
 }
